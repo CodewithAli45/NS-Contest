@@ -1,0 +1,49 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    padding: 10px;
+}
+#limit {
+    padding: 10px 20px;
+    width: 100px;
+    font-size: larger;
+    border-radius: 12px;
+    border: 1px solid lightblue;
+    outline: none;
+    margin-left: 35px;
+    margin-right: 20px;
+}
+#btnStart{
+    padding: 10px 20px;
+    width: 100px;
+    cursor: pointer;
+    font-size: larger;
+    border-radius: 12px;
+    border: 1px solid lightblue;
+    background-color: rgb(60, 93, 104);
+    color: white;
+
+}
+.running{
+    background-color: #0781D4;
+    font-size: 36px;
+    color: white;
+}
+  
+.stopped{
+    background-color: red;
+    font-size: 32px;
+}
+#clock{
+    width: 300px;
+    margin: 15px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    border: 1px solid salmon;
+}

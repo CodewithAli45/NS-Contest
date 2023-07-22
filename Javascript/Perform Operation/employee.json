@@ -1,0 +1,47 @@
+const employees = [
+    {
+        'name' : 'John', 
+        'age' : 30, 
+        'department': "HR", 
+        'salary' : 50000
+    },
+    {
+        'name' : 'Ross', 
+        'age' : 40, 
+        'department': "IT", 
+        'salary' : 60000
+    },
+    {
+        'name' : 'Joe', 
+        'age' : 35, 
+        'department': "HR", 
+        'salary' : 55000
+    },
+    {
+        'name' : 'Rachel', 
+        'age' : 20, 
+        'department': "Finance", 
+        'salary' : 60000
+    },
+    {
+        'name' : 'Monical', 
+        'age' : 45, 
+        'department': "IT", 
+        'salary' : 52000
+    },
+    {
+        'name' : 'Phoebe', 
+        'age' : 32, 
+        'department': "HR", 
+        'salary' : 50000
+    },
+    {
+        'name' : 'Chandler', 
+        'age' : 37, 
+        'department': "IT", 
+        'salary' : 70000
+    },
+
+]
+
+console.log(employees);

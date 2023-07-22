@@ -1,0 +1,43 @@
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#data-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.description {
+    margin-top: 5px;
+}
+pre{
+    font-size: 24px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  thead {
+    background-color: #f9f9f9;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  

@@ -1,0 +1,55 @@
+body{
+  background-color: rgb(235, 234, 234);
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.preview {
+  background-color: rgb(97, 95, 95);
+  padding: 5px;
+  border-radius: 8px;
+  border: 1px solid white;
+  color: white;
+  cursor: text;
+}
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.key {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.key:hover {
+  background-color: black;
+  color: rgb(231, 53, 83);
+}
+
+#key-space{
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.quote {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2px;
+}

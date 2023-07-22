@@ -1,0 +1,16 @@
+Capture the Bubble
+In the given HTML code you are given a button and two divs. When the button is clicked, both event bubbling and capturing occur. Write JavaScript code that adds event listeners to the outer and inner divs and the button, so that when the button is clicked, the following should happen in the order given:
+
+1. The outer div listener should log "outer capturing" to the console.
+2. The inner div listener should log "inner capturing" to the console.
+3. The button listener should log "button capturing" to the console.
+4. The button listener should log "button bubbling" to the console.
+5. The inner div listener should log "inner bubbling" to the console.
+6. The outer div listener should log "outer bubbling" to the console.
+
+
+Event Bubbling -> Event bubbling is a phenomenon in JavaScript where an event triggered on a particular element will also trigger the same event on all its parent elements in the DOM hierarchy. The event bubbles up from the innermost element to its parent elements, all the way up to the document root.
+
+Event capturing ->  In the event capturing phase, the event is first captured at the highest level of the DOM hierarchy (the document root) and then propagates down to the target element. During this phase, the event passes through each ancestor element of the target element, triggering any event handlers attached to those elements.
+
+Event propagates-> In the event propagation phase, after the event has reached the target element, it starts bubbling up from the target element to its ancestor elements in the DOM hierarchy, triggering any event handlers attached to those elements.

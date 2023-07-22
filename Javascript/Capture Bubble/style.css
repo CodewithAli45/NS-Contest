@@ -1,0 +1,20 @@
+body{
+    margin: 20px;
+    background-color: rgb(209, 226, 173);
+}
+#outer {
+    padding: 80px;
+     background-color: black;
+     width: fit-content;
+ }
+ 
+ #inner {
+     padding: 50px;
+     background-color: grey;
+     width: fit-content;
+ }
+ 
+ button {
+     font-size: 30px;
+     cursor: pointer;
+ }
