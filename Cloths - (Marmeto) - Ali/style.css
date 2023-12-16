@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.heading{
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.btns {
+    height: 40px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2px;
+}
+.btns button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    outline: none;
+    border: none;
+    width: 200px;
+    border-radius: 5px;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.btns button img {
+    height: 16px;
+    width: 16px;
+}
+.selected{
+    background-color: black;
+    color: white;
+}
+
+/* card-container */
+.product-card {
+    display: flex;
+    gap: 25px;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    border-radius: 5px;
+}
+.card .card-badge{
+    background-color: white;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.card .card-image img {
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.card .card-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    width: 200px;
+}
+.card .card-title .title {
+    width: 130px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card .card-title ul{
+    font-size: 12px;
+    font-weight: 400;
+}
+.card .card-price{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    gap: 10px;
+}
+.card .card-price .discount-price{
+    color: gray;
+    text-decoration: line-through;
+    font-size: 12px;
+    
+}
+.card .card-price .discount-percent{
+    color: red;
+    
+}
+.card button {
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .heading{
+        font-size: 20px;
+    }
+    .btns {
+        height: 20px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+       gap: 10px;
+    }
+    .btns button {
+        display: flex;
+        justify-content: start;
+        width: 100px;
+        align-items: start;
+        height: 30px;
+        font-size: 16px;
+    }
+    .product-card {
+        flex-direction: column;
+        position: relative;
+        top: 50px;
+        left: 0px;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+  
+    .product-card {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+    }
+    
+}

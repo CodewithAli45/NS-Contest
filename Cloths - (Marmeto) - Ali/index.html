@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloths Shop - Ali Murtaza</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            Select your Choice
+        </div>
+        <div class="btns">
+            <button class="tab" id="menTab" onclick="showProducts('Men')"><img src="./assets/fluent-emoji-high-contrast_boy.svg" alt="men"> Men</button>
+            <button class="tab" id="womenTab" onclick="showProducts('Women')"><img src="./assets/fluent-emoji-high-contrast_girl.svg" alt="women"> Women</button>
+            <button class="tab" id="kidsTab" onclick="showProducts('Kids')"><img src="./assets/Vector.svg" alt="kid">Kid</button>
+        </div>
+
+        <div class="product-card" id="menProducts">
+            <!-- Men's product cards will be dynamically added here -->
+        </div>
+          
+        <div class="product-card" id="womenProducts" style="display: none;">
+            <!-- Women's product cards will be dynamically added here -->
+        </div>
+          
+        <div class="product-card" id="kidsProducts" style="display: none;">
+            <!-- Kids' product cards will be dynamically added here -->
+        </div>
+          
+    </div>
+</body>
+</html>
